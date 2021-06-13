@@ -1,0 +1,48 @@
+body {
+    background-color: #fcefef;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Nunito';
+    font-size: larger;
+    font-style: normal;
+    font-weight: 500;
+}
+
+header {
+    background-color: #7bcdba;
+    font-family: 'Nunito';
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    margin: 30px auto 50px auto
+    width: 50%;
+    padding: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color: #7bcdba;
+    margin: 50px;
+}
+
+footer {
+    padding: 25px 15px 20px 12px;
+    background-color: #7bcdba;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    border-radius: 250px;
+}
+
+.links {
+    line-height: 10px;
+}
