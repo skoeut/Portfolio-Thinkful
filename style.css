@@ -1,48 +1,78 @@
 body {
     background-color: #fcefef;
-    text-align: center;
-    line-height: 1.5;
-    font-family: 'Nunito';
-    font-size: larger;
-    font-style: normal;
-    font-weight: 500;
 }
 
 header {
     background-color: #7bcdba;
-    font-family: 'Nunito';
+    margin: 0px;
+    padding: 10px;
     text-align: center;
-    padding: 5px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
 }
 
 main {
-    margin: 30px auto 50px auto
-    width: 50%;
-    padding: 20px;
+    text-align: center;
+    line-height: 1.5em;
+    width: 40%;
+    margin: auto;
+    padding: 20px
 }
 
-hr {
-    height: 2px;
-    background-color: #7bcdba;
-    margin: 50px;
+article {
+    font-family: 'Nunito';
+    font-weight: 540;
+}
+
+.introduction {
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+.aboutme {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.contact {
+    padding-top: 25px;
 }
 
 footer {
-    padding: 25px 15px 20px 12px;
     background-color: #7bcdba;
+    width: auto;
+    height: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color:darkslategray;
+    font-weight: bolder;
+}
+
+a:hover {
+    color:black;
+}
+
+.list {
+    width: 175px;
+    height: 50px;
+    margin: auto;
+    text-align: left;
+}
+
+.list1 {
+    width: 400px;
+    height: 50px;
+    margin: auto
+}
+
+.logo {
+    width: 25px;
+    height: 25px
 }
 
 img {
     width: 250px;
     height: 300px;
     border-radius: 250px;
-}
-
-.links {
-    line-height: 10px;
 }
