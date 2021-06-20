@@ -1,13 +1,16 @@
 body {
     background-color: #fcefef;
+    margin: 0px
 }
+                               /* top of the webpage */
 
 header {
     background-color: #7bcdba;
-    margin: 0px;
     padding: 10px;
     text-align: center;
 }
+
+                             /* start of main content */
 
 main {
     text-align: center;
@@ -18,30 +21,32 @@ main {
 }
 
 article {
-    font-family: 'Nunito';
-    font-weight: 540;
+    font-family: 'Bitter', sans-serif;
 }
 
 .introduction {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 75px;
 }
 
 .aboutme {
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .contact {
-    padding-top: 25px;
+    padding-top: 10px;
 }
+
+                            /* end of main content */
+
+                 /* bottom of the webpage, including contact links */
 
 footer {
     background-color: #7bcdba;
     width: auto;
     height: 50px;
 }
-
 
 a {
     text-decoration: none;
@@ -53,22 +58,26 @@ a:hover {
     color:black;
 }
 
-.list {
+                                /* styling for lists */
+
+.cities {
     width: 175px;
     height: 50px;
     margin: auto;
     text-align: left;
 }
 
-.list1 {
-    width: 400px;
-    height: 50px;
-    margin: auto
+.activities {
+    margin: auto;
+    max-width: 30em;
+    text-align: left;
 }
+
+                                /* styling for images */ 
 
 .logo {
     width: 25px;
-    height: 25px
+    height: 25px;
 }
 
 img {
